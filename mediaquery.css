@@ -1,3 +1,4 @@
+/* Mobile device, Ipad (320px - 1000px) */
 @media (min-width:20em) and (max-width:62.5em) {
 
     nav {
@@ -198,7 +199,7 @@
     }
 }
  
-
+/* Ipad pro Portrait mode */
 @media (width:64em) and (orientation: portrait)  {
 
     h2 {
@@ -246,6 +247,7 @@
 
 } 
 
+/* Ipad pro landscape mode */
 @media (width:64em) and (orientation: landscape)  {
 
     h2 {
