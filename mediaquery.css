@@ -1,0 +1,294 @@
+@media (min-width:20em) and (max-width:62.5em) {
+
+    nav {
+        gap: 40px;
+        padding-inline: 1em;
+        padding-block: 2em;
+    }
+
+    .logo-container img {
+        height: 30px;
+    }
+
+    .logo-content {
+        gap: 20px;
+    }
+
+    .logo-content a {
+        font-weight: 50;
+        font-size: smaller;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding-inline: 1.5em;
+        margin-top: 3em;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 100%;
+    }
+    .hero-content {
+        order: 2;
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    h2 {
+        padding: 0em;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+    }
+
+    .hero-content p {
+        padding: 0em;
+        text-align: center;
+    }
+
+    input {
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .input-container a {
+        width: 90%;
+        margin-inline: auto;
+        text-align: center;
+    }
+
+    .curved-image {
+        content: url(images/bg-curve-mobile.svg);
+        width: 100%;
+    }
+
+    .top-curved-section {
+        flex-direction: column;
+        padding-inline: 1.5em;
+    }
+
+    .curved-image-section {
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 5em;
+    }
+
+    .curved-content-section {
+        order: 2;
+        width: 100%;
+    }
+
+    .curved-content-section h2 {
+        font-size: 1.1rem;
+    }
+
+    .first-p, 
+    .second-p {
+        opacity: 0.6;
+        padding-right: 0em;
+    }
+
+    .arrow {
+       margin: 0em auto;
+       margin-top: 3em;
+       width: 145px;
+    }
+
+    .arrow-text {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .quote {
+        width: 90%;
+        margin-inline: auto;
+        margin-top: 4em;
+        font-size: smaller;
+    
+    }
+
+    .avatar-content h4,
+    .avatar-content p {
+        font-size: smaller;
+    }
+
+    .email-section {
+        flex-direction: column;
+        gap: 40px;
+        padding-inline: 1.5em;
+        padding-block: 5em;
+    }
+
+    .email-content-section {
+        width: 100%;
+    }
+
+    .email-content-section h3 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .email-content-section p {
+        text-align: center;
+    }
+
+    .input-email-section {
+        width: 100%;
+    }
+    .input-email-section input {
+        width: 80%;
+        height: 40px;
+        margin-inline: auto;
+        border-radius: 2px;
+    }
+
+    .input-email-section a {
+        width: 80%;
+        height: 25%;
+        margin-inline: auto;
+        border-radius: 2px;
+    }
+    
+
+    .footer {
+        flex-direction: column;
+        gap: 30px;
+        padding-inline: 1.5em;
+    }
+
+    .logo-section-2 {
+        margin-right: 0em;
+    }
+
+    .logo-section-2 p:first-of-type,
+    .logo-section-2 p:last-child {
+        font-size: larger;
+        opacity: 0.9;
+    }
+
+    .logo-section-2 img {
+        width: 200px;
+        margin-bottom: 2em;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr, 7);
+        opacity: 0.9;
+        margin-top: 3em;
+        font-size: larger;
+    }
+
+    .item-four {
+        margin-bottom: 2em;
+    }
+
+    .social-media-section {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+    }
+}
+ 
+
+@media (width:64em) and (orientation: portrait)  {
+
+    h2 {
+        padding-right: 3em;
+    }
+
+    .first-p {
+        padding-right: 5em;
+    }
+
+    .second-p {
+        padding-right: 5em;
+    }
+
+    .curved-content-section {
+        width: 50%;
+    }
+    .curved-image-section {
+        width: 50%;
+    }
+
+    .curved-content-section h2 {
+        padding-right: 4em;
+    }
+
+    .quote {
+        width: 90%;
+    }
+    
+    .email-section {
+        gap: 100px;
+    }
+    .input-email-section a {
+        width: 50%;
+    }
+
+    .logo-section-2 {
+        margin-right: 0em;
+        width: 40%;
+    }
+
+    .social-media-section {
+        width: 30%;
+    }
+
+} 
+
+@media (width:64em) and (orientation: landscape)  {
+
+    h2 {
+        padding-right: 3em;
+    }
+
+    .first-p {
+        padding-right: 5em;
+    }
+
+    .second-p {
+        padding-right: 5em;
+    }
+
+    .curved-content-section {
+        width: 50%;
+    }
+    .curved-image-section {
+        width: 50%;
+    }
+
+    .curved-content-section h2 {
+        padding-right: 4em;
+    }
+
+    .quote {
+        width: 90%;
+    }
+    
+    .email-section {
+        gap: 100px;
+    }
+    .input-email-section a {
+        width: 50%;
+    }
+
+    .logo-section-2 {
+        margin-right: 0em;
+        width: 40%;
+    }
+
+    .social-media-section {
+        width: 30%;
+    }
+
+} 

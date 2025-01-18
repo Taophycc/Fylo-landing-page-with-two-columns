@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'open sans', sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 3em;
+    padding-inline: 5em;
+
+}
+
+.logo-container img {
+    height: 40px;
+    width: auto;
+}
+
+.logo-content {
+    display: flex;
+    gap: 50px;
+}
+
+.logo-content a {
+    color: hsl(243, 87%, 12%);
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.logo-content a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    padding-inline: 5em;
+    margin-top: 1em;
+    margin-bottom: 6em;
+}
+
+.hero-content {
+    margin-top: 5em;
+    width: 50%;
+    padding-inline: 0em;
+    
+}
+
+h2 {
+    font-size: 2rem;
+    padding-right: 5em;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0.5em;
+    color: hsl(243, 87%, 12%);
+}
+
+.hero-content p {
+    padding-right: 7em;
+    margin-bottom: 1.5em;
+    color: hsl(243, 87%, 12%);
+}
+.hero-image{
+    width: 50%;
+    border: 0px solid red;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    height: 40px;
+    width: 50%;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input:focus {
+    outline: 2px solid hsl(224, 93%, 58%);
+    border: none;
+}
+
+.input-container a{
+    background-color: hsl(224, 93%, 58%);
+    padding-block: 0.6em;
+    padding-inline: 3em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5em;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.input-container a:focus {
+    background-color: white;
+    color: hsl(224, 93%, 58%);
+    outline: 1px solid hsl(224, 93%, 58%);
+    
+}
+
+.curved-image {
+    width: 100%;
+}
+
+.top-curved-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    background-color: rgb(249, 248, 254);
+    margin-top: -0.5em;
+    padding-block: 3em;
+    padding-bottom: 7em;
+    padding-inline: 5em;
+}
+
+.curved-content-section {
+    width: 60%;
+    
+}
+
+.curved-content-section  {
+    color: hsl(243, 87%, 12%);
+}
+
+.first-p {
+    margin-top: 1.5em;
+    padding-right: 15em;
+    margin-bottom: 1em;
+    font-size: 0.9rem;
+}
+
+.second-p {
+    padding-right: 18em;
+    font-size: 0.9rem;
+    margin-bottom: 1em;
+}
+
+.arrow {
+    border-bottom: 1px solid green;
+    width: 170px;
+    padding-bottom: 0.2em;
+}
+
+.arrow::after {
+    content: url(images/icon-arrow.svg);
+}
+.arrow-text {
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+}
+
+.curved-image-section {
+    width: 40%;
+    
+}
+
+.curved-image-section img{
+    width: 100%;
+}
+
+.quote {
+    background-color: white;
+    width: 50%;
+    padding: 2em;
+    margin-top: 2em;
+    filter: drop-shadow(1px 1px 10px hsl(0, 0%, 75%));
+    
+}
+
+.avatar {
+    display: flex;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 10%;
+    height: 10%;
+}
+
+.avatar-content {
+    align-self: center;
+}
+
+.avatar-content h4 {
+    font-size: 0.8rem;
+}
+
+.avatar-content p {
+    font-size: 0.7rem;
+}
+
+.email-section {
+    display: flex;
+    background-color: hsl(238, 22%, 44%);
+    gap: 200px;
+    padding-inline: 5em;
+    padding-block: 7em;
+}
+
+.email-content-section {
+    width: 45%;
+    
+}
+
+.email-content-section h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 0.5em;
+}
+
+.email-content-section p {
+    color: white;
+    opacity: 0.8;
+}
+
+.input-email-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.input-email-section input {
+    width: 90%;
+    height: 50px;
+    border: none;
+    filter: drop-shadow(1px 1px 1px rgb(78, 80, 113));
+}
+
+.input-email-section input:focus {
+    outline: 3px solid hsl(224, 93%, 58%);
+}
+
+.input-email-section a {
+    background-color: hsl(224, 93%, 58%);
+    padding-block: 01em;
+    padding-inline: 2em;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    width: 40%;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 600;
+    filter: drop-shadow(1px 1px 1px rgb(75, 80, 129));
+}
+
+.input-email-section a:focus {
+    filter: brightness(90%);
+    border: none;
+}
+
+.footer {
+    display: flex;
+    background-color: hsl(243, 87%, 12%);
+    padding-inline: 5em;
+    padding-block: 6em;
+    gap: 100px;
+
+}
+
+.logo-section-2 {
+    margin-right: 5em;
+}
+
+.logo-section-2 p:first-of-type {
+    color: white;
+    margin-bottom: 1em;
+    opacity: 0.9;
+    
+}
+
+.logo-section-2 p:first-of-type::before {
+    content: url(images/icon-phone.svg);
+    margin-right: 1em;
+}
+
+.logo-section-2 p:last-child {
+    color: white;
+    opacity: 0.9;
+    
+}
+
+.logo-section-2 p:last-child::before {
+    content: url(images/icon-email.svg);
+    margin-right: 1em;
+    opacity: 1;
+}
+
+.logo-section-2 img {
+    fill: white;
+    filter: brightness(0%) saturate(100%) invert(89%) sepia(100%) saturate(23%)
+    hue-rotate(316deg) brightness(108%) contrast(105%);
+    margin-bottom: 1em;
+}    
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 4);
+    color: white;
+    gap: 20px;
+    width: 40%;
+    margin-top: 4.5em;
+    opacity: 0.8;
+}
+
+.item-two {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.item-three {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.item-four {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.social-media-section {
+    margin-top: 4.5em;
+}
+.social-media-section img {
+    width: 35px;
+    fill: wheat;
+    height: auto;
+    fill: transparent;
+    margin-right: 10px;
+}
