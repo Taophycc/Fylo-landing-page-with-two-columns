@@ -100,7 +100,7 @@ input:focus {
     
 }
 
-.input-container a:focus {
+.input-container a:hover {
     background-color: white;
     color: hsl(224, 93%, 58%);
     outline: 1px solid hsl(224, 93%, 58%);
@@ -260,7 +260,7 @@ input:focus {
     filter: drop-shadow(1px 1px 1px rgb(75, 80, 129));
 }
 
-.input-email-section a:focus {
+.input-email-section a:hover {
     filter: brightness(90%);
     border: none;
 }
