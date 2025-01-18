@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Taophycc/Fylo-landing-page-with-two-columns.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://taophycc.github.io/Fylo-landing-page-with-two-columns/)
 
 ### Built with
 
