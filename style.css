@@ -7,6 +7,7 @@
     
 }
 
+/* nav-bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,6 +35,8 @@ nav {
 .logo-content a:hover {
     text-decoration: underline;
 }
+
+/* Hero section */
 
 .hero {
     display: flex;
@@ -107,6 +110,8 @@ input:focus {
 .curved-image {
     width: 100%;
 }
+
+/* Middle section */
 
 .top-curved-section {
     display: flex;
@@ -259,6 +264,8 @@ input:focus {
     filter: brightness(90%);
     border: none;
 }
+
+/* Footer */
 
 .footer {
     display: flex;
