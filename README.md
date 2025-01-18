@@ -2,7 +2,7 @@
 
 This is a solution to the [Fylo landing page with two column layout challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Table of contents
+📋 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
@@ -18,23 +18,23 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ## Overview
 
-### The challenge
+📍 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
+🌠 ### Screenshot
 
-![](./screenshot.jpg)
+(![image](https://github.com/user-attachments/assets/d095aa5c-f2d6-425a-832d-71dac21cc5cc)
 
-### Links
+🔗 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Taophycc/Fylo-landing-page-with-two-columns.git)
 - Live Site URL: [Add live site URL here](https://taophycc.github.io/Fylo-landing-page-with-two-columns/)
 
-### Built with
+🔧 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -42,7 +42,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-## Author
+✍️ ## Author
 
 - Website - [taophycc](https://www.your-site.com)
 - Frontend Mentor - [@taophycc](https://www.frontendmentor.io/profile/taophycc)
